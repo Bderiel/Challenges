@@ -8,9 +8,9 @@ function main() {
     }
     var diag = 0
     var diag2 = 0
-    for(var i= 0;i<n;i++){
+    for(var i = 0;i < n; i++){
       diag += a[i][i];
-      diag2 += a[i][n-i-1];
+      diag2 += a[i][n - i - 1];
     }
 console.log(Math.abs(diag - diag2));
 }
